@@ -3,7 +3,7 @@
 <head>  
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Communautés francophones</title>  
+    <title>{{ page.title }}</title>  
     <style>  
         body {  
             font-family: Arial, sans-serif;  
@@ -56,11 +56,39 @@
         }  
         .group svg {  
             fill: currentColor;  
-        }  
+        }
+        img {
+        width: 46px;
+        height: 46px;
+        object-fit: cover; /* Ensures the image covers the area, maintaining its aspect ratio */
+        }
+
+        /* Add shadow to div */
+        div {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, and color */
+        }
     </style>  
 </head>  
 <body>  
-    <div class="container">  
+    <div class="container">
+        <div id="profile-picture">
+            <img src="https://ugc.production.linktr.ee/r7MeYGlpQkGFS8zivaYh_lnF7na7lg84jI90a?io=true&amp;size=avatar-v3_0" alt="" style="width: 96px; height: 96px; object-fit: contain;" role="presentation" crossorigin="anonymous">
+        </div>
+        <div id="profile-title">
+            <h1 style="font-weight: 700; font-size: 1.25rem; line-height: 1.5;">@msdevfr 🦝</h1>
+        </div>
+        <div id="profile-description">
+            <h2 style="text-align: center; font-size: 1.5rem; line-height: 1.5;">Les liens de l'équipe Developer Relations de Microsoft France🔥</h2>
+        </div><div id="profile-picture">
+            <img src="https://ugc.production.linktr.ee/r7MeYGlpQkGFS8zivaYh_lnF7na7lg84jI90a?io=true&amp;size=avatar-v3_0" alt="" style="width: 96px; height: 96px; object-fit: contain;" role="presentation" crossorigin="anonymous">
+        </div>
+        <div id="profile-title">
+            <h1 style="font-weight: 700; font-size: 1.25rem; line-height: 1.5;">@msdevfr 🦝</h1>
+        </div>
+        <div id="profile-description">
+            <h2 style="text-align: center; font-size: 1.5rem; line-height: 1.5;">Les liens de l'équipe Developer Relations de Microsoft France🔥</h2>
+        </div>
+        
         <div class="group">  
             <h3 id="header-368440193">Communautés francophones</h3>  
             <div>  
