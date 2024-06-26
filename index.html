@@ -4,45 +4,13 @@
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>{{ page.title }}</title>  
-    <style>  
-        body {  
-            font-family: Arial, sans-serif;  
-            line-height: 1.6;  
-            padding: 20px;  
-            background-color: #f4f4f4;  
-        }  
-        .container {  
-            max-width: 800px;  
-            margin: auto;  
-            background: #fff;  
-            padding: 20px;  
-            border-radius: 8px;  
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
-        }  
-        .group {  
-            margin-bottom: 20px;  
-        }  
-        .group img {  
-            max-width: 100%;  
-            height: auto;  
-            border-radius: 8px;  
-        }  
-        .group a {  
-            text-decoration: none;  
-            color: #333;  
-        }  
-        .group h3 {  
-            background: #333;  
-            color: #fff;  
-            padding: 10px;  
-            border-radius: 8px;  
-        }  
-        .group p {  
-            padding: 10px;  
-            background: #f4f4f4;  
-            border-radius: 8px;  
-        }  
-        .group button {  
+    <style>
+        body {
+            background: linear-gradient(to right, #007bff, #6699ff); /* Gradient from blue to lighter blue */
+            color: #fff; /* White text color for better contrast */
+        }
+    
+        .group button {
             background: none;  
             border: none;  
             cursor: pointer;  
@@ -51,84 +19,35 @@
             top: 10px;  
             right: 10px;  
         }  
+    
         .group button:hover {  
             opacity: 1;  
         }  
+    
         .group svg {  
             fill: currentColor;  
         }
+    
         .link-container {
-        display: flex;
-        align-items: center; /* Aligns items vertically in the center */
-        gap: 10px; /* Adds some space between the image and the text */
+            display: flex;
+            align-items: center; /* Ensures vertical center alignment */
+            gap: 10px; /* Space between the image and the text */
+            background-color: #007bff; /* Blue background color */
+            padding: 10px; /* Adds some padding inside the containers */
+            border-radius: 5px; /* Optional: Adds rounded corners */
+            justify-content: flex-start; /* Aligns items to the start of the container, adjust as needed */
         }
-
+    
         .link-container img {
             width: 46px; /* Adjusted to match your snippet */
             height: 46px; /* Adjusted to match your snippet */
         }
-
+    
         /* Add shadow to div */
         div {
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, and color */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Horizontal offset, vertical offset, blur radius, and color */
         }
     </style>  
-</head>  
-<body>  
-    <div class="container">
-        <div id="profile-title">
-            <h1 style="font-weight: 700; font-size: 1.25rem; line-height: 1.5;">@msdevfr 🦝</h1>
-        </div>
-        <div id="profile-description">
-            <h2 style="text-align: center; font-size: 1.5rem; line-height: 1.5;">Les liens de l'équipe Developer Relations de Microsoft France🔥</h2>
-        </div>
-        
-        <div class="group">  
-            <h3 id="header-368440193">Communautés francophones</h3>  
-            <div class="link-container">    
-                <a href="https://aka.ms/discord" target="_blank" rel="noopener">  
-                    <img src="https://ugc.production.linktr.ee/36ea4e63-d7a2-4405-9a4b-e893e86edbb4_Discord.png?io=true&amp;size=thumbnail-stack-v1_0" alt="Discord MS Tech">  
-                    Discord MS Tech  
-                </a>  
-            </div>  
-            <div class="link-container">    
-                <a href="https://linktr.ee/mtg_france" target="_blank" rel="noopener">  
-                    <img src="https://ugc.production.linktr.ee/jv2l7WFNSlC8HLDyCAg5_convert.png?io=true&amp;size=thumbnail-stack-v1_0" alt="Microsoft Tech Groups">  
-                    Microsoft Tech Groups  
-                </a>  
-            </div>  
-            <div class="link-container">    
-                <a href="https://aka.ms/aMSCommunity" target="_blank" rel="noopener">
-                    <img src="https://ugc.production.linktr.ee/bd38a8bf-b438-4fcc-98b9-51f91273bc00_Ams.png?io=true&amp;size=thumbnail-stack-v1_0" alt="aMS Community">  
-                    aMS Community
-                </a>  
-            </div>  
-            <div class="link-container">   
-                <a href="https://aka.ms/BizAppsFC" target="_blank" rel="noopener">  
-                    <img src="https://ugc.production.linktr.ee/22ac3961-65ef-4c8b-8a33-de7385ad9f0e_BizApps.png?io=true&amp;size=thumbnail-stack-v1_0" alt="Biz Apps French Community">  
-                    Biz Apps French Community  
-                </a>  
-            </div>  
-            <div class="link-container">   
-                <a href="https://aka.ms/ClubFabric" target="_blank" rel="noopener">  
-                    <img src="https://ugc.production.linktr.ee/95a97e70-dba4-4198-82da-a545b0458a83_Nouveau-projet--4-.jpeg?io=true&amp;size=thumbnail-stack-v1_0" alt="Club Fabric">  
-                    Club Fabric  
-                </a>  
-            </div>  
-            <div class="link-container">   
-                <a href="https://aka.ms/ClubPowerBI" target="_blank" rel="noopener">  
-                    <img src="https://ugc.production.linktr.ee/e8d9f153-4c9c-4a35-aeae-af02e219dc15_Club-powerbi.png?io=true&amp;size=thumbnail-stack-v1_0" alt="Club Power BI">  
-                    Club Power BI  
-                </a>  
-            </div>  
-            <div class="link-container">    
-                <a href="https://aka.ms/GitHubFans" target="_blank" rel="noopener">  
-                    <img src="https://ugc.production.linktr.ee/f194e659-db55-47ef-b663-4ae5f30c2b24_octocat-1709049383389.png?io=true&amp;size=thumbnail-stack-v1_0" alt="GitHub Fans">  
-                    GitHub Fans  
-                </a>  
-            </div>  
-        </div>  
-  
         <div class="group">  
             <h3 id="header-368442678">Les clubs clients Microsoft</h3>  
             <div class="link-container">    
